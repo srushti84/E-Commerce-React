@@ -1,0 +1,103 @@
+/* Register.css */
+
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure it takes full height of the viewport */
+    padding-top: 60px; /* Adjust for the fixed navbar height */
+  }
+  
+  .register-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .register-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .register-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .register-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .register-form .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .register-form .form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0c0c0c;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .register-button:hover {
+    background-color: #38393a;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);
+  }
+  
+  .register-button:active {
+    background-color: #49494a;
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  
+  .register-container p {
+    margin: 10px 0;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .register-container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .register-container a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
