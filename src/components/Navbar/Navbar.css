@@ -1,4 +1,10 @@
-/* General header styles */
+:root {
+  --nav-height: 70px; 
+  --primary-background: #fff;
+  --text-color: #333;
+  --accent-color: #ff6600;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -10,7 +16,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Navbar container styles */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -22,7 +27,6 @@
   margin: 0 auto;
 }
 
-/* Brand name styles */
 .brand-name {
   font-weight: 700;
   font-size: 1.5rem;
@@ -39,7 +43,6 @@
   color: var(--accent-color);
 }
 
-/* Navigation links container styles */
 .nav-link_container {
   display: flex;
   gap: 24px;
@@ -57,7 +60,6 @@
   color: var(--accent-color);
 }
 
-/* Cart icon styles */
 .cart-icon {
   position: relative;
   display: flex;
@@ -82,7 +84,6 @@
   font-size: 0.8rem;
 }
 
-/* Navigation button for mobile */
 .nav-secondary_btn {
   display: none;
   flex-direction: column;
@@ -110,7 +111,6 @@
   transform: translateY(-6px) rotate(-45deg);
 }
 
-/* Cart overlay styles */
 .nav-overlay {
   display: none;
   position: fixed;
@@ -126,7 +126,6 @@
   display: block;
 }
 
-/* Mobile styles */
 @media (max-width: 800px) {
   .nav-link_container {
     display: flex;
