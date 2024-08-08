@@ -1,11 +1,11 @@
 // Footer.js
-import './Footer.css'; // Assuming you have a CSS file for your footer styles
+import './Footer.css'; 
 
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; 2024. All rights reserved.</p>
       </div>
       <div className="footer-links">
         <a href="/explore/all" className="footer-link">Explore Products</a>
